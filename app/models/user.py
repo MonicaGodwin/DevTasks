@@ -6,7 +6,7 @@ class User(Base):
     __tablename__ = "users"
     id:Mapped[int] = mapped_column(
         Integer,
-        Primary_key=True
+        primary_key=True
     )
     email:Mapped[str] = mapped_column(
         String,
